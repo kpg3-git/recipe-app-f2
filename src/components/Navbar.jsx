@@ -54,7 +54,7 @@ export default function Navbar({
           <button
             onClick={handleSearchClick}
             className="bg-orange-500 text-white px-4 py-2 rounded
-                       hover:bg-white hover:text-orange-500 hover:border border-orange-500 transition"
+            hover:bg-white hover:text-orange-500 hover:border border-orange-500 transition"
           >
             Search
           </button>
@@ -73,7 +73,7 @@ export default function Navbar({
           <button
             onClick={handleApplyClick}
             className="border border-orange-500 text-orange-500 px-4 py-2 rounded
-                       hover:bg-orange-500 hover:text-white transition"
+            hover:bg-orange-500 hover:text-white transition"
           >
             Apply
           </button>
@@ -81,15 +81,15 @@ export default function Navbar({
           <button
             onClick={() => setDarkMode(!darkMode)}
             className="border px-3 py-2 rounded border-orange-500
-                       hover:bg-orange-500 hover:text-white
-                       dark:text-white transition"
+            hover:bg-orange-500 hover:text-white
+            dark:text-white transition"
           >
             {darkMode ? "☀ Light" : "🌙 Dark"}
           </button>
         </div>
 
         {/* Nav Links */}
-        <div className="flex gap-4 md:ml-auto">
+        <div className="flex gap-4 md:ml-auto dark:hover:text-orange-500">
           <Link to="/" className="font-semibold hover:text-orange-500 dark:text-white">
             Home 🏠
           </Link>
