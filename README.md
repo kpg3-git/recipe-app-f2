@@ -1,6 +1,8 @@
 # Recipe App 
 
-1. The Recipe App allows users to search and explore recipes using data fetched from a public API (TheMealDB).
+## About the app
+
+1. The Recipe App is a React-based web application that allows users to search and explore variety of recipes using data fetched from a public API (TheMealDB).
 2. Users can filter recipes based on ingredients, categories, or meal types to find relevant dishes easily.
 3. The application provides a detailed recipe view, displaying ingredients, cooking instructions, category, and video links(for limited recipes).
 4. Users can mark recipes as favourites, which are saved using LocalStorage for future access.
